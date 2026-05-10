@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 96%;
+    height: 96%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 15px #d9d9d11a;
+    
+}
+
+.left-box{
+    width: 50%;
+    height: 100%;
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: flex-start;
+    /* padding: 0 100px 0 40px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 150px;
+}
+
+.highlight{
+    color: #790ed1; 
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #d4b6ec;
+    padding: 5px 7px;
+    border-radius: 20px;
+}
+
+.main-desc{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+span{
+    color: #790ed1;
+}
+
+.describtion{
+    font-size: 18px;
+    color: #070707;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    width: 80%;
+}
+
+.btn-gr{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.sing-in, .browse{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sing-in {
+  background: linear-gradient(45deg, #7117f8, #ef3bef);
+  color: #fff;
+}
+
+.browse{
+    background-color: #dbb7f3;
+    color: #070707;
+}
+
+.browse-link, .sing-in-link{
+    text-decoration: none;
+    color: #070707;
+}
+
+.right-box{
+    width: 50%;
+    height: 100%;
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 15px;
+    gap:15px;
+    padding-bottom: 15px;
+} 
+
+.single{
+    height: 90%;
+    width: 50%;
+}
+
+.single-img{
+    height: 640px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    /* padding-bottom: 1; */
+}
+
+.double{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 15px;
+    gap: 15px;
+}
+
+.double-left, .double-right{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
