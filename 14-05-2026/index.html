@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gill+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+        .main{
+            height: 100vh;
+            width: 100%;
+            background-image: url(hero.jpeg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 150px;
+            align-items: center;
+            padding-top: 20px;
+        
+        }
+
+        .nav{
+            align-self: flex-start;
+            padding-left: 200px;
+        }
+
+        .nav ul{
+            display: flex;
+            gap: 40px;
+            list-style: none;
+        }
+
+        .links{
+            types: none;
+            text-decoration: none;
+            color: white;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+        }
+
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            align-items: center;
+        }
+        .content{
+            border: 5px solid white;
+            padding: 40px 60px;
+            font-size: 30px;
+            color: white;
+            text-align: center;
+        }
+
+        p{
+            font-size: 30px;
+            color: white;
+            font-weight: 400;
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1{
+            font-size: 50px;
+            color: white;
+            font-weight: 700;
+            font-family: 'Gill Sans', sans-serif;
+        }
+        .btn-group{
+            display: flex;
+            gap: 40px;
+        }
+
+        .btn1{
+            background: transparent;
+            border: 1px solid red;
+            color: white;
+            padding: 10px 40px;
+        }
+
+        .btn2{
+            background-color: white;
+            color: black;
+            padding: 10px 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <ul>
+                <li class="active"><a class="links" href="#">Home</a></li>
+                <li><a class="links" href="#">PROFILE</a></li>
+                <li><a class="links" href="#">WORK EXPERIENCE</a></li>
+                <li><a class="links" href="#">SKILLS</a></li>
+                <li><a class="links" href="#">INTERESTS</a></li>
+                <li><a class="links" href="#">PORTFOLIO</a></li>
+                <li><a class="links" href="#">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="text">
+            <div class="content">
+                <h1>HELLO!<br>I'M SWAYAMSIDHA</h1>
+                <p>WEB & GRAPHIC DESIGNER</p>
+            </div>
+    
+            <div class="btn-group">
+                <button class="btn1">DOWNLOAD CV</button>
+                <button class="btn2">HIRE ME</button>  
+            </div>
+        </div>    
+
+
+    </div>
+
+</body>
+</html>
