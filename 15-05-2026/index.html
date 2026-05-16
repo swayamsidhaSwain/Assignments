@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main {
+            height: 90%;
+            width: 90%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 50px ;
+            border: 1px solid rgb(224, 219, 219);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            
+        }
+        .left-cont {
+            height: 90%;
+            width: 30%;
+            
+        }
+        .right-cont {
+            height: 90%;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            top: 20px;
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+
+        .text-sec{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding-left:80px ;
+        }
+
+        .head-main{
+            font-size: 55px;
+            font-weight: 500;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .span-main{
+            font-size: 20px;
+            font-weight: 550;
+            color: red;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        .desc-main{
+            text-align: justify;
+            font-size: 20px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        .icon-gr{
+            display: flex;
+            gap: 30px;
+            font-size: 30px;
+            align-items: center;
+            padding-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="left-cont">
+                <img src="my.jpeg" alt="" style="height: 100%; width: 100%; object-fit: cover;">
+            </div>
+            <div class="right-cont">
+                    <div class="text-sec">
+                    <h1 class="head-main">ABOUT ME!</h1>
+                    <span class="span-main">SWAYAMSIDHA SWAIN - WBE DEVELOPER</span>
+                    <p class="desc-main">I am a passionate web developer with experience in creating responsive and user-friendly websites. I specialize in HTML, CSS, and JavaScript to build dynamic web applications. With a focus on clean code and modern design principles, I develop solutions that are both functional and visually appealing. My expertise includes front-end development, UI/UX design, and creating seamless user experiences.</p>
+                </div>
+                <div class="icon-gr">
+                    <i class="ri-basketball-line"></i>
+                    <i class="ri-twitter-fill"></i>
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-linkedin-box-fill"></i>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
