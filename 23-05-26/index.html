@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @media screen and (min-width: 321px) {
+            .container {
+                width: 100%;
+                height: 100vh;
+                background-color: rgb(18, 11, 78);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .main {
+                height: 600px;
+                width: 90%;
+                border: 1px solid red;
+                display: flex;
+
+            }
+
+            .main-left {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 40px;
+            }
+
+            .head-text {
+                color: white;
+                font-size: 64px;
+            }
+
+            .desc-text {
+                color: white;
+                font-size: 20px;
+            }
+
+            .btn-gr {
+                display: flex;
+                gap: 40px;
+            }
+
+            .explore-btn {
+                padding: 10px 20px;
+                background-color: rgb(53, 130, 238);
+            }
+
+            .main-right {
+                height: 100%;
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                padding: 40px;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .card1,
+            .card2,
+            .card3,
+            .card4 {
+                height: 200px;
+                width: 200px;
+                border: 1px solid green;
+                border-radius: 20px;
+                background-color: rgb(170, 172, 173);
+            }
+        }
+
+        @media screen and (max-width: 1159px) {
+            .container {
+                width: 100%;
+                height: 100vh;
+                background-color: rgb(18, 11, 78);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .main {
+                height: 600px;
+                width: 90%;
+                border: 1px solid red;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .main-left {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                /* align-items: center; */
+                /* justify-content: center; */
+                justify-content: flex-start;
+                gap: 40px;
+                padding-top: 20px;
+            }
+
+            .head-text {
+                color: white;
+                font-size: 32px;
+            }
+
+            .desc-text {
+                color: white;
+                font-size: 16px;
+                text-align: justify;
+            }
+
+            .btn-gr {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 40px;
+            }
+
+            .explore-btn {
+                padding: 10px 20px;
+                background-color: rgb(53, 130, 238);
+            }
+
+            .main-right {
+                /* height: 100%; */
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                padding: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .card1,
+            .card2,
+            .card3,
+            .card4 {
+                height: 100px;
+                width: 100px;
+                border: 1px solid green;
+                border-radius: 20px;
+                background-color: rgb(170, 172, 173);
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="main-left">
+                <h1 class="head-text">Learn<br>Responsive<br>Web Desing</h1>
+                <p class="desc-text">This section automatically changes layout on mobile, tablet, and desktop using
+                    Flexbox, Flex Warp, and Media Queries. </p>
+                <div class="btn-gr">
+                    <button class="explore-btn">Explore</button>
+                    <button class="more-bnt">Learn More</button>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="card1">HTML</div>
+                <div class="card2">CSS</div>
+                <div class="card3">Flexbox</div>
+                <div class="card4">MediaQuers</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
