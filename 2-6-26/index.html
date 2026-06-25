@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main {
+            height: 100vh;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 30px 50px ;  
+            gap: 25px;
+        } 
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 60px;
+            padding: 20px 50px ;
+            border: 1px solid rgb(224, 219, 219);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .nav ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        .icons{
+            display: flex;
+            gap: 30px;
+        }
+
+        .icons i {
+            font-size: 20px;
+            color: black;
+        }
+
+        .button .btn{
+            padding: 10px 20px;
+            background-color: rgb(235, 98, 6);
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        .hero{
+            width: 100%;
+            height: 600px;
+            display: flex;
+            border: 1px solid rgb(224, 219, 219);
+
+        }
+
+        .left-block{
+            width:45%;
+            height: 100%;
+        }
+
+        .right-block{
+            width: 55%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px 50px ;
+            border: 1px solid rgb(224, 219, 219);
+            gap: 40px;
+        }
+
+        .head-text h1{
+            font-size: 50px;
+            color: black;
+        }
+        .desc{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+        }
+        desc .desc1{
+            font-size: 20px;
+            color: black;
+        }
+
+        .desc .desc2{
+            font-size: 20px;
+            color:  rgb(235, 98, 6);
+        }
+
+        .texts{
+            display: flex;
+            /* gap: 3px; */
+        }
+        .l-txt .text1{
+            font-size: 14px;
+            color: black;
+            /* text-align: justify; */
+            width: 50%;
+            border: 1px solid rgb(224, 219, 219);
+
+        }
+        .r-txt .text2{
+            font-size: 14px;
+            color: black;
+            /* text-align: justify; */
+            width: 50%;
+            border: 1px solid rgb(224, 219, 219);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <h1>AXELAR</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <i class="ri-discord-fill"></i>
+                <i class="ri-twitter-x-fill"></i>
+                <i class="ri-telegram-1-fill"></i>
+                <i class="ri-youtube-fill"></i>
+            </div>
+            <div class="button">
+                <button class="btn">START BUILDING</button>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="left-block"></div>
+            <div class="right-block">
+                <div class="head-text">
+                    <h1>Programmable <br>Interoperability</h1>
+                </div>
+                <div class="desc">
+                    <p class="desc1">Ethereum has built <br> programmable money.</p>
+                    <p class="desc2">Axelar is building <br> programmable interoperability.</p>
+                </div>
+                <div class="texts">
+                    <div class="l-txt">
+                        <p class="text1">Axelar is a programmable interoperability platform architected to scale Web3 for mass adoption. Unlike other cross-chain connectors, Axelar can run smart-contract logic: it can do anything a blockchain can do including automations that reduce developer overhead and support one-click user experience.</p>
+                    </div>
+                    <div class="r-txt">
+                        <p class="text2">The Axelar platform can connect thousands of chains and dApps across all blockchain ecosystems today and as they grow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
